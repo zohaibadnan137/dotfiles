@@ -1,6 +1,36 @@
 {
+  // Turn off accessibility support
   "editor.accessibilitySupport": "off",
+
+  // Fig
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
+  },
+
+  // Set the color and file icon themes
+  "workbench.colorTheme": "Shibuya",
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Set Prettier as the default formatter and enable format on save
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  // VS Code Pets
+  "vscode-pets.theme": "forest",
+
+  // Python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+
+  // GitHub Copilot
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
   }
 }
