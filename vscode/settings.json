@@ -15,6 +15,9 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
 
+  // Turn on Word Wrap
+  "editor.wordWrap": "on",
+
   // VS Code Pets
   "vscode-pets.theme": "forest",
 
@@ -32,5 +35,8 @@
     "plaintext": false,
     "markdown": false,
     "scminput": false
-  }
+  },
+
+  // Markdown All in One
+  "markdown.extension.preview.autoShowPreviewToSide": true
 }
