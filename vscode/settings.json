@@ -29,14 +29,28 @@
     "**/__pycache__": true
   },
 
+  // Solidity
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
+
   // GitHub Copilot
   "github.copilot.enable": {
     "*": true,
-    "plaintext": false,
+    "plaintext": true,
     "markdown": false,
     "scminput": false
   },
 
   // Markdown All in One
-  "markdown.extension.preview.autoShowPreviewToSide": true
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+
+  // Path Intellisense
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+
+  // Tailwind CSS Intellisense
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
 }
