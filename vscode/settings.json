@@ -1,56 +1,112 @@
 {
-  // Turn off accessibility support
-  "editor.accessibilitySupport": "off",
-
-  // Fig
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  },
-
-  // Set the color and file icon themes
-  "workbench.colorTheme": "Shibuya",
-  "workbench.iconTheme": "material-icon-theme",
-
-  // Set Prettier as the default formatter and enable format on save
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-
-  // Turn on Word Wrap
-  "editor.wordWrap": "on",
-
-  // VS Code Pets
-  "vscode-pets.theme": "forest",
-
-  // Python
+  "RainbowBrackets.depreciation-notice": false,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
-  "files.exclude": {
-    "**/__pycache__": true
-  },
-
-  // Solidity
   "[solidity]": {
     "editor.defaultFormatter": "JuanBlanco.solidity"
   },
-
-  // GitHub Copilot
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": true,
-    "markdown": false,
-    "scminput": false
+  "aws.lambda.recentlyUploaded": {
+    "profile:bigtoken": {
+      "us-east-2": "process-reward-token-queue-prod"
+    },
+    "profile:bigtoken-dev": {
+      "us-east-2": "process-survey-targeting-parameters-dev"
+    }
   },
-
-  // Markdown All in One
-  "markdown.extension.preview.autoShowPreviewToSide": true,
-
-  // Path Intellisense
-  "typescript.suggest.paths": false,
-  "javascript.suggest.paths": false,
-
-  // Tailwind CSS Intellisense
+  "better-comments.tags": [
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#FF2D00",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "!",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#3498DB",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "?",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#474747",
+      "italic": false,
+      "strikethrough": true,
+      "tag": "//",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#FF8C00",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "todo",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#98C379",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "*",
+      "underline": false
+    },
+    {
+      "color": "#666B88",
+      "tag": ""
+    }
+  ],
+  "cursor.cpp.disabledLanguages": ["markdown", "scminput"],
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.inlayHints.enabled": "on",
+  "editor.minimap.enabled": true,
   "editor.quickSuggestions": {
     "strings": "on"
-  }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Shibuya]": {
+      "comments": "#666B88"
+    }
+  },
+  "editor.wordWrap": "on",
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": false,
+    "plaintext": true,
+    "scminput": false
+  },
+  "gitlens.launchpad.indicator.enabled": false,
+  "javascript.suggest.paths": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1",
+    "FIG_NEW_SESSION": "1",
+    "Q_NEW_SESSION": "1"
+  },
+  "typescript.suggest.paths": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vscode-pets.theme": "forest",
+  "workbench.activityBar.orientation": "vertical",
+  "workbench.colorTheme": "Blueberry Banana",
+  "workbench.iconTheme": "material-icon-theme"
 }
